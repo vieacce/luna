@@ -1,0 +1,77 @@
+.heading {
+    padding: 20px;
+    background-color: #c48d60;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 30px;
+ }
+ 
+ .heading h3 {
+    font-size: 2rem;
+    margin-bottom: 0;
+ }
+ 
+ .heading p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+ }
+ 
+ .heading p a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+ }
+ 
+ .heading p span {
+    color: #ccc;
+ }
+ 
+.orders {
+    padding: 40px;
+    background-color: #f4f4f4;
+ }
+ 
+ .orders .title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+ }
+ 
+ .orders .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+ }
+ 
+ .orders .box {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .orders .box p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
+ }
+ 
+ .orders .box span {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #555;
+ }
+ 
+ .orders .box .empty {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+ }

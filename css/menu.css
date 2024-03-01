@@ -1,0 +1,134 @@
+.heading {
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 30px;
+ }
+ 
+ .heading h3 {
+    font-size: 2rem;
+    margin-bottom: 0;
+ }
+ 
+ .heading p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+ }
+ 
+ .heading p a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+ }
+ 
+ .heading p span {
+    color: #ccc;
+ }
+
+.products {
+    padding: 40px;
+    background-color: #f4f4f4;
+ }
+ 
+ .products .title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+ }
+ 
+ .products .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+ }
+ 
+ .products .box {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+ }
+ 
+ .products .box a {
+    color: #333;
+    font-size: 2rem;
+    margin-top: -20px;
+    margin-left: -20px;
+    padding: 20px;
+    background-color: #007bff;
+    transition: all 0.3s ease;
+ }
+ 
+ .products .box a:hover {
+    background-color: #0056b3;
+    color: #fff;
+ }
+ 
+ .products .box .fas {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    color: #007bff;
+    transition: all 0.3s ease;
+ }
+ 
+ .products .box .fas:hover {
+    color: #0056b3;
+ }
+ 
+ .products .box .name {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 10px;
+ }
+ 
+ .products .box .cat {
+    font-size: 0.9rem;
+    color: #555;
+    background-color: #ddd;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+ }
+ 
+ .products .box .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ .products .box .price {
+    font-size: 1.3rem;
+    color: #555;
+ }
+ 
+ .products .box .price span {
+    font-size: 1.5rem;
+    color: #007bff;
+ }
+ 
+ .products .box .qty {
+    width: 50px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: 10px;
+ }
+ 
+ .products .empty {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+ }
